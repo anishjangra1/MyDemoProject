@@ -1,0 +1,24 @@
+-->git init: it will initialize folder.
+-->git status : to check there is change in that folder or not.
+-->git add : to stage new file.
+Three ways to stage new file.
+1.git add "filename complete"
+2.git add .
+3.git add all
+note: point 2 and 3 is working same.
+
+# To unstage file use git rm --cached "filename complete"
+
+# To commit file:
+  git commit -m "your message"
+  note : -m indicates for message.
+  
+  Git remote add Anish Git url 
+  Git remote -v  (To check all the version available on server)
+  
+# To create new branch
+$ git checkout -b ChildBranch
+# git branch (To check all available branch)
+# git checkout master (to come back on master ,you can put any branch name here not only master)
+  
+  
